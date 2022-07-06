@@ -6,6 +6,7 @@ body {
     margin: 0;
 }
 
+
 /* top-banner section */
 
 .top-banner {
@@ -46,6 +47,7 @@ body {
     background-color: #FF5959;
     border-radius: 5px;
 }
+
 
 /* donate-now section */
 
@@ -116,6 +118,7 @@ p {
     margin-bottom: 100px;
 }
 
+
 /* donate-plan section */
 
 .donate-plan {
@@ -129,8 +132,8 @@ p {
 
 .plan-item {
     flex: 1;
-    flex-basis:auto;
-    height: 300px;
+    flex-basis: auto;
+    height: 350px;
     border-radius: 5px;
     margin: 10px;
     padding-top: 30px;
@@ -163,6 +166,46 @@ p {
     background-color: rgba(255, 244, 214, 1);
 }
 
+
+/* corporate-partner section */
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 100px;
+}
+.partners-description {
+    margin-top: 30px;
+    display: flex;
+}
+.description {
+    width: 50%;
+    padding-top: 20px;
+}
+.icons {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.icon {
+    width: 20%;
+    margin: 5%;
+}
+
+
 /* get-updates section */
 
 .get-updates {
@@ -173,6 +216,11 @@ p {
     padding-left: 20%;
     padding-right: 20%;
     margin-bottom: 100px;
+}
+.get-updates p{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 50px;
 }
 
 .input-box {
@@ -208,10 +256,11 @@ p {
     background-color: #FF5959;
 }
 
+
 /* foooterrrr */
 footer {
     background-color: black;
-    padding: 4% 6% 4% 6%;
+    padding: 3% 5% 4% 5%;
     text-align: center;
 }
 
