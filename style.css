@@ -1,0 +1,226 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body {
+    margin: 0;
+}
+
+/* top-banner section */
+
+.top-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 100px;
+}
+
+.top-banner h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.top-banner p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+.link-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    background-color: #FF5959;
+    border-radius: 5px;
+}
+
+/* donate-now section */
+
+.donate-now {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(112, 112, 112, 1);
+    text-align: center;
+}
+
+.donate-now h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: gray;
+}
+
+.amounts {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.amount-item {
+    background-color: rgba(250, 250, 250, 1);
+    padding: 30px 10px 30px 10px;
+    border-radius: 5px;
+}
+
+#tk200 {
+    padding: 30px 10px 30px 10px;
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+    background-color: rgba(255, 89, 89, 0.16);
+}
+
+.amount-text {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 1.5px solid rgba(179, 179, 179, .5);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 30px;
+}
+
+.donate-now a {
+    margin-bottom: 100px;
+}
+
+/* donate-plan section */
+
+.donate-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+
+.plan-item {
+    flex: 1;
+    flex-basis:auto;
+    height: 300px;
+    border-radius: 5px;
+    margin: 10px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.plan-item h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.plan-item p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgba(112, 112, 112, 1);
+    text-align: left;
+}
+
+#food {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+#shelter {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+#education {
+    background-color: rgba(255, 244, 214, 1);
+}
+
+/* get-updates section */
+
+.get-updates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 100px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(255, 244, 214, 1);
+    border-radius: 5px;
+}
+
+.email {
+    background: rgb(220, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 0 25px;
+}
+
+.button {
+    position: relative;
+    left: -5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    width: 150px;
+    height: 40px;
+    background-color: #FF5959;
+}
+
+/* foooterrrr */
+footer {
+    background-color: black;
+    padding: 4% 6% 4% 6%;
+    text-align: center;
+}
+
+footer h1 {
+    color: tomato;
+    font-family: 'Lobster', cursive;
+}
+
+footer small {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
